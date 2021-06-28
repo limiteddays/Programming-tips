@@ -2,7 +2,7 @@
 
 ## Use the join
 
-```python:
+```python
 my_name = " ".join(['firstname','lastname'])
 ```
 이렇게하면, 깔끔하게 variable 들을 정리할 수 있다.
@@ -11,7 +11,7 @@ my_name = " ".join(['firstname','lastname'])
 읽을 수 있는 리스트에는, 모든 코드를 리스트에다가 적을 수 있다.
 예를 들어서
 
-```python:
+```python
 numbers = [1,2,3,4,5,6,7,8,9,10]
 
 even_halves = [num/2 for num in numbers if num%2 = 0]
@@ -20,7 +20,7 @@ even_halves = [num/2 for num in numbers if num%2 = 0]
 ## Use the Zip
 zip을 쓰면, 빠르게 여러 리스트들을 iterate 하는것이 가능하다.
 
-```python:
+```python
 
 students = [‘tom’,’dick’,’harry’,’larry’,’tim’,’benny’]
 scores = [100,20,40,60,30,40]
@@ -60,7 +60,7 @@ add(10, 10)
 
 ## BFS
 
-```python:
+```python
 def search(root,key):
 
     # Base Cases: root is null or key is present at root
@@ -88,7 +88,7 @@ DFS is better when the goal is located near the leaf.
 
 ## negative sorting
 
-```python:
+```python
 res = sorted(A, key = lambda i: 0 if i == 0 else -1 / i)
 ```
 
@@ -106,7 +106,7 @@ faster for short list, but not for the larger ones.
 
 ## Heap implementation
 
-```python:
+```python
 # Python3 program to find the most
 # frequent element in an array.
 import math as mt
